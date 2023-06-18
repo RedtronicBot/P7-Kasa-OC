@@ -1,0 +1,24 @@
+.header
+{
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+}
+
+.active
+{
+    border-bottom: 1px solid #ff6060;
+}
+
+.header_list
+{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.header_list_component
+{
+    text-decoration: none;
+    color: #ff6060;
+}
