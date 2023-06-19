@@ -1,0 +1,27 @@
+.erreur
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ff6060;
+}
+
+.erreur_h1
+{
+    font-size: 288px;
+    font-weight: 700;
+    margin:90px 0 66px 0;
+}
+
+.erreur_h2
+{
+    font-size: 36px;
+    margin:0 0 182px 0;    
+}
+
+.erreur_lien
+{
+    font-size: 18px;
+    color: #ff6060;    
+}
