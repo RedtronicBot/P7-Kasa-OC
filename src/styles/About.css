@@ -4,15 +4,23 @@
     margin: 0 auto 30px auto;
 }
 
-.menu_components
+.menu_components,.menu_components2
 {
     display: none;
+    padding: 30px;
 }
 
 .menu_components.active_dropdown
 {
     display: flex;
     font-size: 24px;
+    color :#ff6060
+}
+
+.menu_components2.active_dropdown
+{
+    display: flex;
+    font-size: 18px;
     color :#ff6060
 }
 
@@ -52,7 +60,20 @@
     font-weight: 500;
 }
 
+.menu_title2
+{
+    color: white;
+    margin-left: 18px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
 .about_list
 {
     list-style: none; 
+}
+
+.dropdownmenu_list
+{
+    list-style: none;
 }

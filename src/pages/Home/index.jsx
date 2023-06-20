@@ -16,6 +16,7 @@ function Home() {
                         <Thumbnail
                             title={logements.title}
                             picture={logements.cover}
+                            id={logements.id}
                         />
                     </li>
                 ))}

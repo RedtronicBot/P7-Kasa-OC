@@ -12,7 +12,7 @@ function Header() {
                     <Link
                         to={"/"}
                         className={`header_list_component ${
-                            location.pathname === "/" ? "active" : ""
+                            location.pathname !== "/" ? "inactive" : ""
                         }`}
                     >
                         Accueil
@@ -22,7 +22,7 @@ function Header() {
                     <Link
                         to={"/about"}
                         className={`header_list_component ${
-                            location.pathname === "/about" ? "active" : ""
+                            location.pathname !== "/about" ? "inactive" : ""
                         }`}
                     >
                         A Propos

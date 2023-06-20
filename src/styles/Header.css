@@ -5,9 +5,9 @@
     font-size: 24px;
 }
 
-.active
+.inactive
 {
-    border-bottom: 1px solid #ff6060;
+    text-decoration: none;
 }
 
 .header_list
@@ -19,6 +19,5 @@
 
 .header_list_component
 {
-    text-decoration: none;
     color: #ff6060;
 }
