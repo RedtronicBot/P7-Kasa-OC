@@ -1,4 +1,5 @@
 import { Link, useLocation } from "react-router-dom"
+import Logo from "../../images/logo_kasa.png"
 import "../../styles/Header.css"
 
 function Header() {
@@ -6,7 +7,13 @@ function Header() {
 
     return (
         <div className="header">
-            <img src="" alt="logo_kasa" className="header_image" />
+            <img
+                src={Logo}
+                alt="logo_kasa"
+                className="header_image"
+                width="211"
+                height="68"
+            />
             <ul className="header_list">
                 <li>
                     <Link

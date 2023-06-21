@@ -5,7 +5,7 @@ import imageBanner from "../../images/home_banner.png"
 import "../../styles/Home.css"
 function Home() {
     return (
-        <div>
+        <div className="home">
             <Banner
                 image={imageBanner}
                 text={"Chez vous, partout et ailleurs"}

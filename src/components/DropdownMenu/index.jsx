@@ -1,4 +1,5 @@
 import { useState } from "react"
+import chevron from "../../images/chevron_dropdown_menu.png"
 import "../../styles/About.css"
 function DropdownMenu({ title, text, small, equipement, equipementList }) {
     const [open, setOpen] = useState(false)
@@ -12,6 +13,13 @@ function DropdownMenu({ title, text, small, equipement, equipementList }) {
                     }}
                 >
                     <h1 className="menu_title">{title}</h1>
+                    <img
+                        src={chevron}
+                        alt="chevron"
+                        className={`menu_chevron ${
+                            open ? "active_dropdown" : ""
+                        }`}
+                    />
                 </div>
                 <div
                     className={`menu_components ${
@@ -35,6 +43,13 @@ function DropdownMenu({ title, text, small, equipement, equipementList }) {
                         }}
                     >
                         <h1 className="menu_title2">{title}</h1>
+                        <img
+                            src={chevron}
+                            alt="chevron"
+                            className={`menu_chevron ${
+                                open ? "active_dropdown" : ""
+                            }`}
+                        />
                     </div>
                     <div
                         className={`menu_components2 ${
@@ -57,6 +72,13 @@ function DropdownMenu({ title, text, small, equipement, equipementList }) {
                         }}
                     >
                         <h1 className="menu_title2">{title}</h1>
+                        <img
+                            src={chevron}
+                            alt="chevron"
+                            className={`menu_chevron ${
+                                open ? "active_dropdown" : ""
+                            }`}
+                        />
                     </div>
                     <div
                         className={`menu_components2 ${

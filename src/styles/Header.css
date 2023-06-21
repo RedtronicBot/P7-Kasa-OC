@@ -1,8 +1,10 @@
 .header
 {
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: space-between;
     font-size: 24px;
+    margin:40px 0 60px 0;
 }
 
 .inactive
@@ -14,7 +16,7 @@
 {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 60px;
 }
 
 .header_list_component
