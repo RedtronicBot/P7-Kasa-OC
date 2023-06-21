@@ -7,13 +7,7 @@ function Header() {
 
     return (
         <div className="header">
-            <img
-                src={Logo}
-                alt="logo_kasa"
-                className="header_image"
-                width="211"
-                height="68"
-            />
+            <img src={Logo} alt="logo_kasa" className="header_image" />
             <ul className="header_list">
                 <li>
                     <Link

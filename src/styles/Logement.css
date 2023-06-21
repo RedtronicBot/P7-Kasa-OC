@@ -18,6 +18,10 @@
 
 .logement_carrousel
 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
     width: 100%;
     margin-bottom: 25px;
 }
@@ -30,7 +34,7 @@
     margin-bottom: 25px;
 }
 
-.logement_titre_location
+.logement_titre_location_tag
 {
     display: flex;
     flex-direction: column;
@@ -40,14 +44,15 @@
 {
     display: flex;
     align-items: center; 
+    margin-bottom: 30px;
+    gap:10px;
 }
 
 .logement_tag_rating
 {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    width: 100%;
-    justify-content: space-between;
     margin-bottom: 26px;
 }
 
@@ -61,6 +66,8 @@
 
 .logement_host_name
 {
+    display: flex;
+    text-align: right;
     width: 93px;
     font-size: 18px;
     font-weight: 500;
@@ -81,6 +88,7 @@
 
 .logement_tag_list
 {
+    margin-top: 20px;
     list-style: none;
     display: flex;
     gap: 10px;
@@ -105,4 +113,99 @@
     display: flex;
     width: 100%;
     gap:76px;
+}
+
+.left_arrow_carrousel
+{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 23px;
+    cursor: pointer;
+}
+
+.right_arrow_carrousel
+{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 23px;
+    cursor: pointer;
+}
+
+.pagination_carrousel
+{
+    position: absolute;
+    right: 50%;
+    bottom: 25px;
+    color: white;
+    font-size: 18px;
+}
+
+.star_rating
+{
+    display: flex;
+    gap:15px;
+}
+
+/* Css Home pour Téléphone*/
+@media screen and (max-width: 600px) 
+{
+    .logement_image
+    {
+        width: 90%;
+        height: 255px;
+    }   
+    
+    .left_arrow_carrousel, .right_arrow_carrousel
+    {
+        width: 11px;
+        height: 19px;
+    }
+
+    .logement_presentation
+    {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .logement_tag_rating
+    {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .star
+    {
+        width: 13px;
+        height: 13px;
+    }
+
+    .logement_titre
+    {
+        font-size: 18px;
+    }
+
+    .logement_location 
+    {
+        font-size: 14px;
+    }
+
+    .logement_tag_list_components
+    {
+        font-size: 10px;
+        min-width: 74px;
+        height: 18px;
+        border-radius: 5px;
+    }
+
+    .logement_host
+    {
+        margin-bottom: 0px;
+    }
+    .logement_description_equipement
+    {
+        flex-direction: column;
+        gap:0px;
+    }
 }

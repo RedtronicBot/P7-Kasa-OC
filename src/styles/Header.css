@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: space-between;
     font-size: 24px;
-    margin:40px 0 60px 0;
+    margin:40px auto 60px auto;
 }
 
 .inactive
@@ -22,4 +22,34 @@
 .header_list_component
 {
     color: #ff6060;
+}
+
+.header_image
+{
+    width:211px;
+    height:68px;
+}
+
+/*Header pour les Téléphones*/
+
+@media screen and (max-width: 600px) 
+{
+    .header_image
+    {
+        width: 117px;
+        height:38px;
+    }   
+    
+    .header
+    {
+        width: 90%;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+
+    .header_list
+    {
+        gap: 10px;
+    }
+
 }

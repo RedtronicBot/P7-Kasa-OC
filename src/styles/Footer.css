@@ -16,3 +16,12 @@
     font-size: 500;
     color: white;
 }
+
+/* Css Footer pour Téléphone*/
+@media screen and (max-width: 600px) 
+{
+    .footer_text
+    {
+        font-size: 12px;
+    }    
+}

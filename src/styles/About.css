@@ -66,3 +66,39 @@
 {
     list-style: none; 
 }
+
+/*Css About pour les Téléphones*/
+
+@media screen and (max-width: 600px) 
+{
+    .menu
+    {
+        width: 90%;
+    }
+
+    .menu_title
+    {
+        font-size: 13px;
+    }
+
+    .menu_components2.active_dropdown,.menu_components.active_dropdown
+    {
+        font-size: 12px;
+    }
+
+    .menu_element
+    {
+        padding: 0 10px;
+    }
+
+    .menu_components,.menu_components2
+    {
+        padding: 10px;
+    }
+
+    .menu_chevron
+    {
+        width: 16px;
+        height: 9px;
+    }
+}

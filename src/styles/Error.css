@@ -17,6 +17,7 @@
 .erreur_h2
 {
     font-size: 36px;
+    font-weight: 500;
     margin:0 0 182px 0;    
 }
 
@@ -25,4 +26,28 @@
     font-size: 18px;
     color: #ff6060;
     margin-bottom: 110px;    
+}
+
+/*Css About pour les Téléphones*/
+
+@media screen and (max-width: 600px) 
+{
+    .erreur_h1
+    {
+        font-size: 96px;
+        margin:90px 0 0 0;
+    } 
+
+    .erreur_h2
+    {
+        font-size: 18px;
+        margin:0 auto 102px auto;  
+        width: 260px;
+        text-align: center;  
+    }   
+
+    .erreur_lien
+    {
+        font-size: 14px;   
+    }
 }
