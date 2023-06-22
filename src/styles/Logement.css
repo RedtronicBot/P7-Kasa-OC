@@ -167,10 +167,12 @@
     {
         flex-direction: column;
         width: 90%;
+        margin-bottom: 0;
     }
 
     .logement_tag_rating
     {
+        margin: 15px 0;
         flex-direction: row-reverse;
         justify-content: space-between;
     }

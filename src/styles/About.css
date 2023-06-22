@@ -1,3 +1,8 @@
+.about
+{
+    min-height: 100vh;
+}
+
 .menu
 {
     width: 71%;
@@ -74,9 +79,10 @@
     .menu
     {
         width: 90%;
+        margin: 0 auto 20px auto;
     }
 
-    .menu_title
+    .menu_title, .menu_title2
     {
         font-size: 13px;
     }
@@ -89,6 +95,7 @@
     .menu_element
     {
         padding: 0 10px;
+        height: 30px;
     }
 
     .menu_components,.menu_components2
@@ -101,4 +108,5 @@
         width: 16px;
         height: 9px;
     }
+
 }

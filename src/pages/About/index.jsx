@@ -5,7 +5,7 @@ import DropdownMenu from "../../components/DropdownMenu"
 import "../../styles/About.css"
 function About() {
     return (
-        <div>
+        <div className="about">
             <Banner image={imageBanner} text={""} />
             <ul className="about_list">
                 {aboutList.map((about, index) => (
