@@ -20,7 +20,9 @@ function Carrousel({ image }) {
             <img
                 src={LeftArrow}
                 alt="left_arrow"
-                className="left_arrow_carrousel"
+                className={`left_arrow_carrousel ${
+                    image.length === 1 ? "inactive_carrousel" : ""
+                }`}
                 onClick={GoToPrevious}
             />
             <img
@@ -31,10 +33,16 @@ function Carrousel({ image }) {
             <img
                 src={RightArrow}
                 alt="right_arrow"
-                className="right_arrow_carrousel"
+                className={`right_arrow_carrousel ${
+                    image.length === 1 ? "inactive_carrousel" : ""
+                }`}
                 onClick={GoToNext}
             />
-            <p className="pagination_carrousel">
+            <p
+                className={`pagination_carrousel left_arrow_carrousel ${
+                    image.length === 1 ? "inactive_carrousel" : ""
+                }`}
+            >
                 {currentIndex + 1}/{image.length}
             </p>
         </div>

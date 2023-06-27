@@ -6,9 +6,8 @@ import Logement from "./pages/Logement"
 import Header from "./components/Header"
 import Footer from "./components/Footer"
 import Error from "./pages/Error"
-import "./styles/Global.css"
-
 import About from "./pages/About"
+import "./styles/Global.css"
 
 const root = ReactDOM.createRoot(document.getElementById("root"))
 root.render(

@@ -7,7 +7,7 @@ function DropdownMenu({ title, text, small, equipement, equipementList }) {
         return (
             <div className="menu">
                 <div
-                    className={`menu_element ${open ? "active_dropdown" : ""}`}
+                    className="menu_element"
                     onClick={() => {
                         setOpen(!open)
                     }}
@@ -35,9 +35,7 @@ function DropdownMenu({ title, text, small, equipement, equipementList }) {
             return (
                 <div className="menu">
                     <div
-                        className={`menu_element ${
-                            open ? "active_dropdown" : ""
-                        }`}
+                        className="menu_element"
                         onClick={() => {
                             setOpen(!open)
                         }}
@@ -64,9 +62,7 @@ function DropdownMenu({ title, text, small, equipement, equipementList }) {
             return (
                 <div className="menu">
                     <div
-                        className={`menu_element ${
-                            open ? "active_dropdown" : ""
-                        }`}
+                        className="menu_element"
                         onClick={() => {
                             setOpen(!open)
                         }}
