@@ -39,7 +39,7 @@ function Carrousel({ image }) {
                 onClick={GoToNext}
             />
             <p
-                className={`pagination_carrousel left_arrow_carrousel ${
+                className={`pagination_carrousel ${
                     image.length === 1 ? "inactive_carrousel" : ""
                 }`}
             >
